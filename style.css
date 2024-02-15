@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    border: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.mainimg {
+    background-image: url(headway-5QgIuuBxKwM-unsplash.jpg);
+    background-size: cover;
+    height: 110vh;
+}
+
+.navbar {
+    position: absolute;
+    top: 25px;
+    height: 70px;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+    padding: 10px;
+    font-size: 1.25rem;
+}
+
+.logo {
+    color: #fada50;
+    font-size: 2.5rem;
+    margin-right: 40%;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.container{
+    position: absolute;
+    top: 35%;
+    height: 500px;
+    width: 500px;
+    margin-left: 8%;
+
+#quote {
+    position: absolute;
+    color: white;
+   font-weight: bold;
+}
+
+pre {
+    position: absolute;
+    top:15%;
+    color: white;
+    
+}
+
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    color: white;
+    font-size: 1rem;
+    border: 1.6px solid white;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.tabbutt{
+    display: flex;
+    flex-direction: column;
+}
+.table{
+    display: flex;
+    height: 200px;
+    width: 400px;
+    
+    justify-content: space-evenly;
+    position: absolute;
+    top: 30%;
+}
+
+.button1{
+    background-color: #fada50;
+    padding: 10px 60px 10px 60px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+}
+.container2 {
+    background-image: url(leone-venter-VieM9BdZKFo-unsplash.jpg);
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#fndhead{
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+    color: #8a9a5b;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+.bossimg{
+    background-image: url(8239263.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    margin-top: 50px;
+}
+
+ul{
+    color: gray;
+}
+
+.container3{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    
+}
+
+.points{
+    margin: 50px 10px 50px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 2px;
+    gap: 15px;
+}
+
+.timerbox{
+    height: 95vh;
+    background-color: #199a;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+#timer{
+    
+    font-size: 3.5rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main{
+    height: 400px;
+    width: 100%;
+    background-color:#199a;
+    color: #fada50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxcta{
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #007fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box1{
+    width: 60%;
+
+}
+
+.box2{
+    
+    width: 22%;
+}
+
+#box1txt{
+    margin: 20px;
+}
+
+.button2{
+    background-color: #fada50;
+    padding: 10px 60px 10px 60px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    width: 200px;
+}
+
+#box2p,#box2h,#box2p2,.button2{
+    margin-left: 20px;
+}
+
+#box2p{
+    color: black;
+    font-weight: bold;
+}
+#box2p2{
+    color: black;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.cont{
+    
+    height: 300px;
+    width: 400px;
+    background-color: aqua;
+    transform: translateX(-100%);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+h2,input,.submit{
+    margin: 15px;
+    height: 30px;
+}
+input{
+    border-radius: 5px;
+    border: none;
+}
+
+.submit{
+    font-size: 1.25rem;
+    background-color: #fada50;
+    border: none;
+    
+}
+
+.slide{
+    height: 300px;
+    width: 400px;
+    background-color: aqua;
+    transform: translateX(0%);
+}
